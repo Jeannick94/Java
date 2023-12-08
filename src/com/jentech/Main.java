@@ -80,5 +80,8 @@ public class Main {
             default -> 3;
         };
         System.out.println(resultGrade);
+
+        TshirtSize size = TshirtSize.XXL;
+        System.out.println("Selected t-shirt size: " + size);
     }
 }

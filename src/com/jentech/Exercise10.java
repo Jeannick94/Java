@@ -11,6 +11,16 @@ public class Exercise10 {
         System.out.println("Longest string in array2: \"" + findLongestString(array2) + "\"");
         System.out.println("Longest string in array3: \"" + findLongestString(array3) + "\"");
         System.out.println("Longest string in array4: \"" + findLongestString(array4) + "\"");
+
+        //Enun exercise
+        System.out.println("T Shirt Size: " + TshirtSize.M);
+
+        TshirtSize[] sizes = TshirtSize.values();
+
+        for (TshirtSize size : sizes) {
+            String lowercaseName = size.name().toLowerCase();
+            System.out.println("Lowercased T Shirt Size: " + lowercaseName);
+        }
     }
 
     public static String findLongestString(String[] array){
